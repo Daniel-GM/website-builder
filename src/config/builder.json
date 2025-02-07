@@ -1,0 +1,52 @@
+{
+  "home": [
+    {
+      "component": "Header",
+      "props": {
+        "logo": "/imagens/logo.png",
+        "background": "bg-emerald-300",
+        "textColor": "text-gray-700"
+      }
+    },
+    {
+      "component": "Banner",
+      "props": {
+        "imageUrl": "/imagens/banner-home.png"
+      }
+    },
+    {
+      "component": "CardList",
+      "props": {
+        "cards": []
+      }
+    }
+  ],
+  
+  "contato": [
+    {
+      "component": "Header",
+      "props": {
+        "title": "Entre em Contato"
+      }
+    },
+    {
+      "component": "ContactForm",
+      "props": {}
+    }
+  ],
+
+  "quemSomos": [
+    {
+      "component": "Header",
+      "props": {
+        "title": "Quem Somos"
+      }
+    },
+    {
+      "component": "TextBlock",
+      "props": {
+        "text": "Nossa história..."
+      }
+    }
+  ]
+}
