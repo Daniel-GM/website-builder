@@ -11,9 +11,9 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/contato" element={<PageRenderer layout={pageConfig.contato} />} />
-          <Route path="/quem-somos" element={<PageRenderer layout={pageConfig.quemSomos} />} />
           <Route path="/" element={<PageRenderer layout={pageConfig.home} />} />
+          <Route path="/quem-somos" element={<PageRenderer layout={pageConfig.quemSomos} />} />
+          <Route path="/contato" element={<PageRenderer layout={pageConfig.contato} />} />
         </Routes>
       </Router>
     </>

@@ -3,21 +3,70 @@
     {
       "component": "Header",
       "props": {
-        "logo": "/imagens/logo.png",
-        "background": "bg-emerald-300",
-        "textColor": "text-gray-700"
+        "logo": "/imagens/icon/logo.png",
+        "background": "#fff",
+        "textColor": "text-emerald-600",
+        "textColorHover": "hover:text-blue-400"
       }
     },
+    
     {
       "component": "Banner",
       "props": {
-        "imageUrl": "/imagens/banner-home.png"
+        "height": "548px",
+        "imageUrl": "/imagens/banner/banner0.webp",
+        "link": "https://sigesistema.com.br/",
+        "target": true
       }
     },
+
+    {
+      "component": "Title",
+      "props": {
+        "text": "Gestão Completa",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "background": "#fff",
+        "textColor": "text-blue-600",
+        "verticalPadding": "50px",
+        "horizontalPadding": "50px"
+      }
+    },
+
     {
       "component": "CardList",
       "props": {
         "cards": []
+      }
+    },
+
+    {
+      "component": "Footer",
+      "props": {
+        "logo": "/imagens/logo.png",
+        "background": "#417169",
+        "textColor": "text-black",
+        "logoColor": "text-red-50",
+        "logoColorHover": "hover:text-blue-500"
+      }
+    }
+  ],
+
+  "quemSomos": [
+    {
+      "component": "Header",
+      "props": {
+        "logo": "/imagens/icon/logo.png",
+        "background": "#fff",
+        "textColor": "text-emerald-600",
+        "textColorHover": "hover:text-blue-400"
+      }
+    },
+
+    {
+      "component": "TextBlock",
+      "props": {
+        "text": "Nossa história..."
       }
     }
   ],
@@ -26,27 +75,16 @@
     {
       "component": "Header",
       "props": {
-        "title": "Entre em Contato"
+        "logo": "/imagens/icon/logo.png",
+        "background": "#fff",
+        "textColor": "text-emerald-600",
+        "textColorHover": "hover:text-blue-400"
       }
     },
+    
     {
       "component": "ContactForm",
       "props": {}
     }
-  ],
-
-  "quemSomos": [
-    {
-      "component": "Header",
-      "props": {
-        "title": "Quem Somos"
-      }
-    },
-    {
-      "component": "TextBlock",
-      "props": {
-        "text": "Nossa história..."
-      }
-    }
-  ]
+  ]  
 }
